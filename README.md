@@ -12,9 +12,10 @@ Replication package for ICSE 2025 paper "Reasoning Runtime Behavior of a Program
 ### Software Requirements
 
 - OS: Linux
-- Python: 3.8 - 3.11 (Conda environment is optional but recommended)
+- Python: 3.10 (Conda environment is optional but recommended)
 - Install the JSON processor `jq`.
 - Install necessary Python libraries by running `pip install -r requirements.txt`.
+- (Colin) For compatibility, run `pip install --upgrade openai`.
 - Users without capable GPUs should run `pip install -r requirements-nogpu.txt`. In this case, they can only evaluate GPT models via OpenAI API.
 
 Note: 
